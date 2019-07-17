@@ -36,6 +36,17 @@ SCRIPTING_B = 2;
 -- + check distance to multiple models other
 -- + models without having to hit SCRIPTING_A again.
 
+---------------------------
+-- WARNING:
+-- + This script works by locating the base of the
+-- + respective models, and then casting a ray between
+-- + them. Severe verticality can therefore cause the
+-- + script to fail. Be careful with this. Draw a line
+-- + between the bases with your eyes and check that
+-- + no model bits would be in the way of a segment from
+-- + base-to-base.
+
+
 -- ENJOY!
 
 objecta = 0
